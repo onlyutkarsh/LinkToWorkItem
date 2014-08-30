@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkToWorkItem", "LinkToWorkItem.csproj", "{4E114266-D3C5-4D3A-978E-E4D4F47FEE92}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://onlyutkarsh.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LinkToWorkItem.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E114266-D3C5-4D3A-978E-E4D4F47FEE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E114266-D3C5-4D3A-978E-E4D4F47FEE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E114266-D3C5-4D3A-978E-E4D4F47FEE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E114266-D3C5-4D3A-978E-E4D4F47FEE92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
