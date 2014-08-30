@@ -1,7 +1,7 @@
 Link To Work Item
 ==============
 
-Link To Work Item is a Visual Studio [extension](http://visualstudiogallery.msdn.microsoft.com/af28fbc6-e90e-4f06-94d0-21c8bbac9685)  which helps you to assign one or many work item(s) to changeset(s) directly from changeset history window. 
+Link To Work Item is a Visual Studio [extension](http://visualstudiogallery.msdn.microsoft.com/af28fbc6-e90e-4f06-94d0-21c8bbac9685)  which helps you to assign work item to changeset(s) directly from changeset history window. 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/indlc2jhod6u8x7w)](https://ci.appveyor.com/project/onlyutkarsh/linktoworkitem)
 
