@@ -77,13 +77,13 @@ build_script:
 artifacts:
 
   # pushing a single file
-  - path: LinkToWorkItem\bin\$(configuration)\LinkToWorkItem.vsix
+  - path: .\bin\$(configuration)\LinkToWorkItem.vsix
 
   # pushing a single file with environment variable in path and "Deployment name" specified
-  - path: LinkToWorkItem\bin\$(configuration)
+  - path: .\bin\$(configuration)
     name: Output
 
- #---------------------------------#
+#---------------------------------#
 #     deployment configuration    #
 #---------------------------------#
 
