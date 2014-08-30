@@ -26,7 +26,7 @@ environment:
 
 # enable patching of AssemblyInfo.* files
 assembly_info:
-  patch: true
+  patch: false
   file: AssemblyInfo.*
   assembly_version: "1.0.{build}"
   assembly_file_version: "{version}"
@@ -78,8 +78,9 @@ artifacts:
 
   # pushing a single file
   - path: .\bin\$(configuration)\LinkToWorkItem.vsix
-
+    name: LinkToWorkItem_{version}.vsix
   # pushing a single file with environment variable in path and "Deployment name" specified
+  # zips all the bin\release folder as output.zip
   - path: .\bin\$(configuration)
     name: Output
 
