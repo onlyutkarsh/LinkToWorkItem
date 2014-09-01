@@ -15,15 +15,6 @@ version: 1.0.{build}
 #    environment configuration    #
 #---------------------------------#
 
-
-# environment variables
-environment:
-  my_var1: value1
-  my_var2: value2
-  # this is how to set encrypted variable. Go to "Encrypt data" page in account menu to encrypt data.
-  my_secure_var1:
-    secure: FW3tJ3fMncxvs58/ifSP7w==
-
 # enable patching of AssemblyInfo.* files
 assembly_info:
   patch: false
@@ -54,8 +45,8 @@ configuration: Release
 
 build:
   project: LinkToWorkItem.sln      # path to Visual Studio solution or project
-  # MSBuild verbosity level
-  verbosity: normal
+  # MSBuild verbosity level quiet|minimal|normal|detailed
+  verbosity: minimal
 
 
 # scripts to run before build
