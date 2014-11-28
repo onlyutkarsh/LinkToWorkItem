@@ -7,11 +7,11 @@ Link To Work Item is a Visual Studio [extension](http://visualstudiogallery.msdn
 
 **Features**
 
-- Directly assign work items to changeset(s) from history window.
-- Assign work item to multiple changeset(s).
-- Know the type of the work item before assigning.
-- Open the work item from search results.
-- It also supports all default Visual Studio themes.
+- [] Directly assign work items to changeset(s) from history window.
+- [] Assign work item to multiple changeset(s).
+- [] Know the type of the work item before assigning.
+- [] Open the work item from search results.
+- [x] It also supports all default Visual Studio themes.
 
 **Demo**
 ![Demo](http://i.imgur.com/5xfRsSN.gif)
